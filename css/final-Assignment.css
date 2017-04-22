@@ -1,0 +1,143 @@
+body{
+max-width: 80%;
+margin: 3%;
+margin-top: 20px;
+}
+header{
+ background-image: url("http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg");
+ background-color: #f3ebeb;
+ background-repeat: none;
+ max-width: 100%;
+ max-higth: 40%;
+ background-size: 100%;
+-webkit-max-logical-height: 40%;
+margin-top: 0px;  
+margin-bottom: 0px;
+padding-top: 3px;
+padding: 3px;
+border: none;
+} 
+h1{
+text-align: center;
+font-size: 2.5em;
+color: #ffffff;
+}
+nav>a{
+ background: #f3ebeb;
+ opacity: 0.4;
+-webkit-tap-highlight-color: #000080;
+text-align: center;
+width: 15%;
+margin: 2%;
+display: inline-block;
+border-radius: 5px;
+font-size: 120%;
+color: #000000;
+text-decoration: none;
+padding: 5px;
+font-weight: bold;
+font-family: sans-serif, arial;
+}
+
+a.active{
+opacity: 0.9;
+backgroung-color: #ffffff;
+}
+
+img{
+display: inline-block;
+margin: 10px 30px 20px;
+border: solid black 2px;
+max-width: 80%;
+min-width: 20%;
+}
+
+main{
+padding: 0px;
+display: inline-block;
+float: left;
+clear: right;
+min-width: 40%;
+}
+.left{
+float: left;
+margint: 0px;
+margin-right: 0px;
+backgroung-color: brown;
+max-width: 26%;
+background-color: #9a2d2d;
+padding: 12px;
+padding-right: 2px;
+clear: both;
+min-width: 25%;
+}
+.right{
+ display: block;
+float: right;
+margin: 10px;
+max-width: 80%;
+padding: 0px;
+}
+h2{
+  color: #000080;
+  font-size: 2em;
+  margin: 0px;
+  padding: 1px;
+}
+
+p{
+  float: left;
+  display: block;
+  max-width: 70%;
+  margin: 20px;
+  margin-bottom: 60px;
+  padding: 0px;
+}
+
+table{
+  clear: both;
+  margin: 40px;
+  margin-top: 40px;
+  float: center;
+  background-color: #e6d67f;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  border-collapse: collapse;
+  width: 80%;
+  opacity: 0.8;
+}
+
+table th{
+  background-color: green;
+  font-size: 20px;
+  text-align: center;
+  width: 140px;
+  padding: 10px;
+}
+
+table, td, th {
+    border: 1px solid #09f731;
+  
+}
+table td{
+  padding: 10px;
+  font-weight: 500;
+  font-family: sans-serif, aria, monospace;
+}
+
+tr:hover, td:hover {
+  background-color: #1ad639;
+  font-weight: 900;
+  font-style: italic;
+  color: #4f4ede;
+}
+table:hover{
+  opacity: 1;
+}
+tr > td:nth-child(2){
+  text-align: center;
+}
+
+tr > td:nth-child(3){
+  text-align: center;
+}
